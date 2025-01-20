@@ -1,0 +1,98 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+
+// --------------------------estilo-form1y2
+#form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // background-color: #f4f4f9; /* Fondo claro para el formulario */
+  border-radius: 10px;
+  // padding: 20px;
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del formulario */
+  width: 80%;
+  max-width: 400px; /* Limita el ancho máximo */
+  margin: 20px auto; /* Centra el formulario en la página */
+}
+
+ion-input {
+  margin-bottom: 15px; /* Espacio entre los inputs */
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+ion-input .input-wrapper {
+  background-color: #ffffff; /* Fondo blanco para los campos de entrada */
+  border-radius: 8px;
+}
+
+// ion-input .input-label {
+//   font-weight: bold; /* Etiqueta más visible */
+//   color: #333333; /* Color de la etiqueta */
+// }
+
+ion-input .input-control {
+  font-size: 16px; /* Tamaño de texto más grande para la entrada */
+  padding: 12px; /* Relleno alrededor del texto ingresado */
+}
+
+ion-input .native-input {
+  padding-left: 10px; /* Espacio adicional a la izquierda para texto */
+}
+
+
+
+
+// --------------------------estilo-button
+
+button {
+  
+  background-color: #02ffdd; /* Color de fondo verde */
+  color: white; /* Color del texto */
+  font-size: 16px; /* Tamaño de la fuente */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor cuando el mouse pasa sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+  margin: 1% 46%;
+}
+
+button:hover {
+  background-color: #0ad7e6; /* Color de fondo cuando el botón es presionado */
+}
+
+button:focus {
+  outline: none; /* Elimina el borde de enfoque */
+}
+
+button:active {
+  background-color: #f50000; /* Color de fondo cuando el botón está siendo presionado */
+}

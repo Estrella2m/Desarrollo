@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Iniciar sesión
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Iniciar sesión</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<!-- ------------------------------------------------------------------------------- -->
+
+
+
+   <div id="form1"> 
+    <ion-input [(ngModel)]="" label="Usuario" label-placement="floating" fill="solid" placeholder="Escribe tu usuario"></ion-input>
+
+    <ion-input label=" Contraseña" label-placement="floating" fill="solid"  type="password" placeholder="Escribe tu contraseña"></ion-input>
+  </div>
+
+    <button [routerLink]="['/menu']">Ingresar</button>
+    <ion-button expand ="block"(click)= "login()">Ingresar </ion-button>
+
+
+</ion-content>

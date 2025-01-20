@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>date</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">date</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<!---------------------------------Calendario---------------------------------------------->
+<div id="cale">
+    <ion-datetime locale="es-ES"></ion-datetime>
+    <br><br><br>
+    <ion-datetime [showDefaultTitle]="true"></ion-datetime>
+    <br><br><br>
+    <ion-datetime #datetime>
+      <ion-buttons slot="buttons">
+        <ion-button color="danger" (click)="datetime.reset()">Reset</ion-button>
+        <ion-button color="primary" (click)="datetime.cancel()">Never mind</ion-button>
+        <ion-button color="primary" (click)="datetime.confirm()">All Set</ion-button>
+      </ion-buttons>
+    </ion-datetime>
+    <br><br><br>
+
+</div>  
+
+
+
+
+</ion-content>
